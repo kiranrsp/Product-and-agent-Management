@@ -1,0 +1,52 @@
+<div class="d-flex justify-content-between flex-wrap flex-md nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2"><%= customer.productName  %></h1>
+    <div class="btn-toolbar mb-2 mb-md 0">
+      <div class="btn-group me-2">
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="col py-3">
+  
+    <div class="row">
+      <div class="col">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/allproducts">All Products</a></li>
+            <li class="breadcrumb-item active"><%= customer.productName  %></li>
+          </ol>
+        </nav>
+      </div>
+
+    </div>
+  
+  </div>
+  
+  <ul class="list-group">
+  
+    <li class="list-group-item"> 
+      <div class="row">
+        <div class="col" style="max-width: 240px"> <b>Product Name:</b></div>
+        <div class="col"><%= customer.productName %></div>
+      </div>
+    </li>
+  
+  
+    <li class="list-group-item"> 
+      <div class="row">
+        <div class="col" style="max-width: 240px"> <b>Product Category :</b></div>
+        <div class="col"><%= customer.productCategory  %></div>
+      </div>
+    </li>
+
+    <li class="list-group-item"> 
+      <div class="row">
+        <div class="col" style="max-width: 240px"> <b>Manufacturer :</b></div>
+        <div class="col"><%= customer.manufacturer  %></div>
+      </div>
+    </li>
+    </li>
+  
+  </ul>
+

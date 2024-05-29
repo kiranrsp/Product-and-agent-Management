@@ -1,0 +1,44 @@
+<div class="d-flex justify-content-between flex-wrap flex-md nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Add Agent</h1>
+    <div class="btn-toolbar mb-2 mb-md 0">
+      <div class="btn-group me-2">
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col py-3">
+    <div class="row">
+      <div class="col">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Dashboard</a></li>
+            <li class="breadcrumb-item active">Add Agent</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="col text-end fw-lighter">
+      
+      </div>
+    </div>
+  
+  </div>
+  
+  
+  <form action="/agent/add" method="POST">
+  
+    <div class="row form-group mb-4 w-25">
+  
+        <label for="agentName">Agent Name</label>
+        <input type="text" class="form-control" id="agentName" name="agentName" value="" placeholder="Agent Name" required>
+    </div>
+  
+     
+
+    <div class="row form-group mb-4 w-25">
+      <button type="submit" class="btn btn-primary">Add Agent</button>
+    </div>
+  
+  </div>
+  
+  </form>
